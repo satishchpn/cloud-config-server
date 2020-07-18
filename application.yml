@@ -17,5 +17,6 @@ eureka:
       defaultZone: 'http://localhost:8761/eureka'
   instance:
     hostname: localhost
-file:
-  uploadDir: /home/media/upload
+media:
+  file:
+    upload: 'dir:/home/media/upload'
