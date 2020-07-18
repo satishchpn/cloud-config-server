@@ -28,5 +28,5 @@ eureka:
     
  # All files uploaded through the REST API will be stored in this directory   
 file:
-  upload-dir: /home/media/upload
+  uploadDir: /home/media/upload
     
