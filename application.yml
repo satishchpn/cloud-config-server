@@ -1,0 +1,32 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 20KB
+      max-file-size: 200MB
+
+## MULTIPART (MultipartProperties)
+# Enable multipart uploads
+# Threshold after which files are written to disk.
+# Max file size.
+# Max Request Size 
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+    
+    
+ # All files uploaded through the REST API will be stored in this directory   
+file:
+  upload-dir: /home/media/upload
+    
